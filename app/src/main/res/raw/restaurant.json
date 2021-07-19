@@ -1,0 +1,756 @@
+[
+  {
+    "name": "Chicago's",
+    "address": "7225 W Harlem Ave.",
+    "delivery_charge": 5,
+    "image": "https://image.flaticon.com/icons/png/512/1857/1857933.png",
+
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Vegetables",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Spaghetti",
+        "price": 10.00,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":3.5,
+        "saved":50,
+        "order":110,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chocolate Pizza",
+        "price": 4.99,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/1040685/pexels-photo-1040685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Meat poultry",
+        "rating":4.2,
+        "saved":230,
+        "order":10,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cheese Sticks",
+        "price": 5.49,
+        "sale": 26,
+        "url": "https://images.pexels.com/photos/2113556/pexels-photo-2113556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "chicken sandwich",
+        "price": 4.00,
+        "sale": 10,
+        "url": "https://images.pexels.com/photos/5591666/pexels-photo-5591666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.8,
+        "saved":50,
+        "order":130,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "fingerz boxed lunch",
+        "price": 3.25,
+        "sale": 11,
+        "url": "https://images.pexels.com/photos/2136863/pexels-photo-2136863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":2.1,
+        "saved":20,
+        "order":10,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "house zalad boxed",
+        "price": 5.49,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/1040685/pexels-photo-1040685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Meat poultry",
+        "rating":1.2,
+        "saved":12,
+        "order":11,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "cookie and brownie",
+        "price": 8.09,
+        "sale": 22,
+        "url": "https://images.pexels.com/photos/2122280/pexels-photo-2122280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "brownie platter",
+        "price": 6.49,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/3070970/pexels-photo-3070970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ]
+  },
+  {
+    "name": "Hotdogs",
+    "address": "469 W Huron St.",
+    "delivery_charge": 4,
+    "image": "https://image.flaticon.com/icons/png/512/3067/3067788.png",
+
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.1,
+        "saved":230,
+        "order":10,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Hot Dog",
+        "price": 2.99,
+        "sale": 23,
+        "url": "https://images.pexels.com/photos/2532005/pexels-photo-2532005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cheese Dog",
+        "price": 3.59,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/3985872/pexels-photo-3985872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Midway Monster",
+        "price": 5.44,
+        "sale": 12,
+        "url": "https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":3.2,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Fries",
+        "price": 2.00,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/299410/pexels-photo-299410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":2.5,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Milkshake",
+        "price": 3.49,
+        "sale": 32,
+        "url": "https://images.pexels.com/photos/4637491/pexels-photo-4637491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.2,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chocolate Shake",
+        "price": 4.95,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/2300031/pexels-photo-2300031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Strawberry Shake",
+        "price": 3.59,
+        "sale": 23,
+        "url": "https://images.pexels.com/photos/2067437/pexels-photo-2067437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Meat poultry",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Filet-O-Fish",
+        "price": 5.49,
+        "sale": 0,
+        "url": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "McNuggets",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Combo Meal",
+        "price": 8.29,
+        "sale": 0,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.3,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "McMuffin Meal",
+        "price": 6.99,
+        "sale": 34,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+      }
+    ]
+  },
+  {
+    "name": "McDonald's",
+    "address": "10975 State Bridge Rd.",
+    "delivery_charge": 5,
+    "image": "https://image.flaticon.com/icons/png/512/1046/1046799.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Vegetables",
+        "rating":4.1,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chocolate Shake",
+        "price": 4.95,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Meat poultry",
+        "rating":2.1,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Strawberry Shake",
+        "price": 3.59,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":3.2,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Filet-O-Fish",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+      },
+      {
+        "type": "Vegetables",
+        "rating":2.1,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "McNuggets",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Meat poultry",
+        "rating":2.1,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Combo Meal",
+        "price": 8.29,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "McMuffin Meal",
+        "price": 6.99,
+        "sale": 23,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+      }
+    ]
+  },
+  {
+    "name": "Zaxby's",
+    "address": "8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image": "https://image.flaticon.com/icons/png/512/776/776452.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chicken Sandwich",
+        "price": 4.00,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cingerz boxed lunch",
+        "price": 3.25,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "House zalad boxed",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cookie and brownie",
+        "price": 8.09,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Brownie platter",
+        "price": 6.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+      }
+    ]
+  },
+  {
+    "name": "Windward's",
+    "address": "8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image": "https://image.flaticon.com/icons/png/512/3463/3463681.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chicken Sandwich",
+        "price": 4.00,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cingerz boxed lunch",
+        "price": 3.25,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "House zalad boxed",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cookie and brownie",
+        "price": 8.09,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Brownie platter",
+        "price": 6.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+      }
+    ]
+  },
+  {
+    "name": "Poultry's",
+    "address": "8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image": "https://image.flaticon.com/icons/png/512/1285/1285289.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chicken Sandwich",
+        "price": 4.00,
+        "sale": 23,
+        "url": "https://th.bing.com/th/id/Re15cd2c5cdd7258500e7e370aae11619?rik=HqTjfjHKxZlNTA&pid=ImgRaw"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cingerz boxed lunch",
+        "price": 3.25,
+        "sale": 23,
+        "url": "https://th.bing.com/th/id/R3c941d129f0da3d95155ddb838882553?rik=dp9esdOFudu3yw&riu=http%3a%2f%2ftapchisinhvien.vn%2fuploads%2f001-Tapchisinhvien%2f3-Xem-an-choi%2f1-An-uong%2fMon-moi-toanh-in-hinh-tren-tra-sua%2fMon-moi-toanh-in-hinh-tren-tra-sua-1.jpg&ehk=o%2b%2f4qVFyyHh2q1PyF70UNhvNDziVrc%2bZm8fARjenRYI%3d&risl=&pid=ImgRaw"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "House zalad boxed",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://i2-prod.mirror.co.uk/incoming/article11649856.ece/ALTERNATES/s482b/THP_CHP_061217SGreggs_4691JPG.jpg"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://1.bp.blogspot.com/-WhW10WGnS2E/XXXvhZFEakI/AAAAAAAAqss/CI9lZxrQJFIyrnr0ehdYOYnM0S8plovdwCEwYBhgL/w1200-h630-p-k-no-nu/DSC03385.JPG"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cookie and brownie",
+        "price": 8.09,
+        "sale": 23,
+        "url": "https://imgs.capitalfm.com/images/200115?crop=16_9&width=660&relax=1&signature=sYJvLtYbSuGkiumvf8HG6MuadbQ="
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Brownie platter",
+        "price": 6.49,
+        "sale": 23,
+        "url": "https://th.bing.com/th/id/R2088420ef2ad869366d97ccf096b15c0?rik=LeL%2bsj0%2b20oQJQ&pid=ImgRaw"
+      }
+    ]
+  },
+  {
+    "name": "Seafood's",
+    "address": "8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image": "https://image.flaticon.com/icons/png/512/3828/3828081.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chicken Sandwich",
+        "price": 4.00,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cingerz boxed lunch",
+        "price": 3.25,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "House zalad boxed",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cookie and brownie",
+        "price": 8.09,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Brownie platter",
+        "price": 6.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+      }
+    ]
+  },
+  {
+    "name": "simply's",
+    "address": "8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image": "https://image.flaticon.com/icons/png/512/3076/3076143.png",
+    "hours": {
+      "Sunday": "11:00 AM - 19:00",
+      "Monday": "10:00 AM - 22:00",
+      "Tuesday": "10:00 AM - 22:00",
+      "Wednesday": "10:00 AM - 20:00",
+      "Thursday": "10:00 AM - 22:00",
+      "Friday": "10:00 AM - 22:00",
+      "Saturday": "9:00 AM - 23:00"
+    },
+    "menus": [
+      {
+        "type": "Meat poultry",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Chicken Sandwich",
+        "price": 4.00,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.86,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cingerz boxed lunch",
+        "price": 3.25,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "House zalad boxed",
+        "price": 5.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cobb zalad boxed",
+        "price": 3.99,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Fish seafood",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Cookie and brownie",
+        "price": 8.09,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
+      },
+      {
+        "type": "Vegetables",
+        "rating":4.6,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy",
+        "name": "Brownie platter",
+        "price": 6.49,
+        "sale": 23,
+        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+      }
+    ]
+  }
+]

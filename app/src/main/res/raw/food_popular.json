@@ -1,0 +1,43 @@
+
+[
+    {
+        "type": "Fish seafood",
+        "rating":4.8,
+        "saved":20,
+        "order":120,
+        "describle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." ,
+        "name": "chicken sandwich",
+        "price": 4.00,
+        "url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "type": "Vegetables",
+        "rating":4.8,
+        "saved":50,
+        "order":130,
+        "describle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." ,
+        "name": "fingerz lunch",
+        "price": 3.25,
+        "url": "https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "type": "Meat poultry",
+        "rating":2.1,
+        "saved":20,
+        "order":10,
+        "describle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." ,
+        "name": "house boxed",
+        "price": 5.49,
+        "url": "https://images.pexels.com/photos/2122280/pexels-photo-2122280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "type": "Fish seafood",
+        "rating":1.2,
+        "saved":12,
+        "order":11,
+        "describle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." ,
+        "name": "cobb zalad",
+        "price": 3.99,
+        "url": "https://images.pexels.com/photos/2532005/pexels-photo-2532005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+]  

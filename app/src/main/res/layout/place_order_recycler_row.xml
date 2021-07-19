@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp">
+
+        <ImageView android:id="@+id/thumbImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/food_detail_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/menuQty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                android:text="3x"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+
+        <TextView android:id="@+id/menuName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Chocolate Pizza"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="05dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginStart="10dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/menuPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="$12.5"
+                            android:textSize="16sp" />
+                            <TextView
+                                android:id="@+id/icLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="16sp"
+                                android:text="("/>
+                            <ImageView
+                                android:id="@+id/icDisccount"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"
+                                app:tint="#ff6813"
+                                android:src="@drawable/ic_local_offer_white_24dp"/>
+                            <TextView
+                                android:id="@+id/txtSale"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:textColor="#ff6813"
+                                android:text="25%"/>
+                            <TextView
+                                android:id="@+id/icRight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="16sp"
+                                android:text=")"/>
+                    </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

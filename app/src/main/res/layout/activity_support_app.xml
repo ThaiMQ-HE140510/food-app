@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f7fb"
+    tools:context=".SupportAppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_back_black"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingRight="50dp"
+            android:text="HELP CENTER"
+            android:textColor="#2e3131"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/center_help"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2e3131"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="How can Food App\nhelp you?"/>
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search_bg"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:drawablePadding="8dp"
+            android:hint="Search"
+            android:paddingStart="16dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_right_nomal"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="Introduction to App Food"
+        android:textColor="#2e3131"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:id="@+id/txtUsermMnual"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_right_nomal"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="User manual"
+        android:textColor="#2e3131"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="Term and Condition"
+        android:textColor="#2e3131"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="If you have any problems and wish to contact our\nCustomer Service agent directly, please click Call\n\t\tus button. We will take care of it immediately" />
+    <TextView
+        android:id="@+id/btnEmailSupport"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_email_bg"
+        android:text="EMAIL SUPPORT"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/txtEmailAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact with admin support?"
+        android:gravity="center"
+        android:textColor="#2ecc71"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

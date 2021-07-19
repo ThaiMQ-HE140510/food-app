@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_bold</item>
+        <item>@font/arbutus</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/lalezar</item>
+        <item>@font/secular_one</item>
+        <item>@font/tienne_bold</item>
+    </array>
+</resources>

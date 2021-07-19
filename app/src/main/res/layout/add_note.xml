@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/layout_update_item_bg"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery Notes "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2e3131"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/baseline" />
+
+    <EditText
+        android:id="@+id/txtNoteDetail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        android:hint="ex: Leave goods at the gate"
+        android:backgroundTint="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/baseline"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="320"/>
+
+        <TextView
+            android:id="@+id/btnComplete"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="Completed"
+
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/register_bg"/>
+    </LinearLayout>
+
+</LinearLayout>

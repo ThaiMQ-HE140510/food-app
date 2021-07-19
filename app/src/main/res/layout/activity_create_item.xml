@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".CreateItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_food_app"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/lalezar"
+            android:text="Food"
+            android:textColor="#f27935"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/lalezar"
+            android:text="App"
+            android:textColor="#3498db"
+            android:textSize="40sp" />
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:textColor="#67809f"
+    android:text="Create new Item for Store" />
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_text_create_item"
+        android:drawableLeft="@drawable/ic_name_cr"
+        android:hint="Name"
+
+        android:textColorHint="#6c7a89"
+        android:drawableTint="#2e3131"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_text_create_item"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_price_cr"
+        android:hint="Price"
+        android:inputType="number"
+        android:drawablePadding="10dp"
+
+        android:textColorHint="#6c7a89"
+        android:drawableTint="#2e3131"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/txtImage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_image_cr"
+        android:background="@drawable/bg_text_create_item"
+        android:hint="Image URL"
+        android:inputType="textMultiLine"
+        android:layout_height="100dp"
+        android:textColorHint="#6c7a89"
+        android:drawableTint="#2e3131"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/txtDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textMultiLine"
+        android:textColorHint="#6c7a89"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_description_cr"
+        android:hint="Describe"
+        android:background="@drawable/bg_text_create_item"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/txtType"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_type_cr"
+        android:hint="Type of Item"
+        android:drawablePadding="10dp"
+        android:textColorHint="#6c7a89"
+        android:background="@drawable/bg_text_create_item"
+        android:drawableTint="#2e3131"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/txtSale"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_sale_cr"
+        android:hint="Sale"
+        android:textColorHint="#6c7a89"
+        android:drawableTint="#2e3131"
+        android:drawablePadding="10dp"
+        android:background="@drawable/bg_text_create_item"
+        android:paddingLeft="10dp" />
+
+    <TextView android:id="@+id/btnCreate"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Upload"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:background="@drawable/button_ct_bg"/>
+</LinearLayout>

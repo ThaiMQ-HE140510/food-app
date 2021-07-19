@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TutorialUsingAppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_back_black"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingRight="50dp"
+            android:text="HELP CENTER"
+            android:textColor="#2e3131"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#f6f7fb"/>
+
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_right_nomal"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="How to create Account?"
+        android:textColor="#2e3131"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ic_right_nomal"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="How to order product?"
+        android:textColor="#2e3131"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+</LinearLayout>

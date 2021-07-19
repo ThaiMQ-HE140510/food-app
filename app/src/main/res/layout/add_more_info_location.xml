@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/layout_update_item_bg"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Information"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2e3131"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_circle"
+            android:drawableTint="#f2784b"/>
+
+        <TextView
+            android:id="@+id/txtStoreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="số 94 ngõ 42 - Triều Khúc - Thanh Xuân - Hà Nội - Việt Nam - International"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2e3131"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableStart="@drawable/ic_down"
+        android:drawableTint="#6c7a89" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_location_note"
+            android:drawableTint="@color/green_1"/>
+
+        <TextView
+            android:id="@+id/txtDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="số 94 ngõ 42 - Triều Khúc - Thanh Xuân - Hà Nội - Việt Nam - International"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2e3131"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/baseline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Detail (Optional)"
+        android:textColor="#2e3131"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtDetail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ex: Number of houses/alleys/floors"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#6b6b6b"
+        android:textColor="#2e3131"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Site (Optional)"
+        android:textColor="#2e3131"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/txtSite"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ex: Next to Midway restaurant"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#6b6b6b"
+        android:textColor="#2e3131"/>
+
+    <TextView
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/register_bg"
+        android:text="Confirm"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+</LinearLayout>

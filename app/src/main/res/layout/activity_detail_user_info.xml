@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f7fb"
+    tools:context=".DetailUserInfoActivity">
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="#ffffff"
+            android:fontFamily="sans-serif-medium"
+            android:text="Your information account"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginLeft="35dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2ecc71"
+            android:background="#ffffff" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Phone number"
+        android:paddingTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#999ba1"
+        android:paddingLeft="20dp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:paddingBottom="15dp"
+            android:background="#ffffff"/>
+        <TextView
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="#2ecc71"
+            android:background="#ffffff" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textColor="#85898c"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Email"
+        android:textSize="18sp"
+        android:paddingTop="40dp"
+        android:textColor="#85898c"
+        android:paddingLeft="20dp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:background="#ffffff"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/alarm"
+            android:layout_marginLeft="60dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="You will receive many important notifications and use email for password reset."
+        android:textSize="15sp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="EMAIL VERIFICATION "
+        android:textSize="18sp"
+        android:textColor="#2ecc71"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="15dp"
+        android:text="Password"
+        android:textSize="18sp"
+        android:textColor="#85898c"
+        android:paddingLeft="20dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/baseline" />
+</LinearLayout>
